@@ -1,0 +1,391 @@
+{
+  "meta": {
+    "title": "Czarne Mleko | Kawa i śniadania",
+    "description": "Czarne Mleko — kawa, śniadania i lunch. ul. Dąbrowskiego 68, Poznań."
+  },
+  "a11y": {
+    "skipLink": "Przejdź do treści",
+    "logoHome": "Strona główna Czarne Mleko",
+    "navPrimary": "Menu główne",
+    "navMobileLabel": "Menu",
+    "highlights": "Wyróżnienia",
+    "visitSection": "Odwiedź nas",
+    "galleryRegion": "Galeria Czarne Mleko",
+    "galleryPhotos": "Zdjęcia",
+    "foodGalleryScroller": "Przewijana galeria potraw",
+    "galleryDots": "Wskaźniki zdjęć",
+    "langSwitch": "Wybór języka"
+  },
+  "nav": {
+    "menu": "Menu",
+    "gallery": "Galeria",
+    "about": "O nas",
+    "testimonials": "Opinie",
+    "location": "Lokalizacja",
+    "contact": "Kontakt",
+    "reserve": "Rezerwacja"
+  },
+  "lang": {
+    "pl": "PL",
+    "en": "EN"
+  },
+  "hero": {
+    "headline": "kawa, śniadania, spokojne poranki",
+    "eyebrow": "z miłości do ludzi i jedzenia",
+    "subtitle": "Restauracja",
+    "lead": "kawa specialty · śniadania · lunch",
+    "ctaMenu": "Zobacz menu",
+    "ctaReserve": "Rezerwacja online",
+    "heroImageAlt": "Czarne Mleko — kawiarnia na Dąbrowskiego w Poznaniu"
+  },
+  "intro": {
+    "title": "Od rana do wieczora",
+    "lead": "Śniadania, lunch, sezonowe talerze i kawa speciality — smacznie, uczciwie i z serca.",
+    "feature1": "Śniadania przez cały dzień",
+    "feature2": "Opcje wege i sezonowe",
+    "feature3": "Kawa, herbaty i koktajle",
+    "script": "Wpadnij na śniadanie!",
+    "photoAlt": "Deser z malinami w Czarne Mleko",
+    "locationTitle": "Jeżyce",
+    "mapCta": "Zobacz na mapie",
+    "sageTitle": "kawa z charakterem",
+    "sageLead": "Specialty coffee, domowe wypieki i spokojna atmosfera — w sercu Jeżyc.",
+    "sageCta": "O naszej kawie"
+  },
+  "classics": {
+    "eyebrow": "Na talerzu",
+    "title": "Nasze klasyki",
+    "lead": "Sezonowe składniki, domowe receptury i smaki, do których chce się wracać.",
+    "cta": "Pełne menu",
+    "lunchTitle": "Lunch",
+    "lunchDesc": "Panini, sałatki i ciepłe dania na co dzień.",
+    "lunchAlt": "Lunch w Czarne Mleko",
+    "bakedTitle": "Wypieki",
+    "bakedDesc": "Domowe ciasta i słodkości idealne do kawy.",
+    "bakedAlt": "Wypieki w Czarne Mleko",
+    "coffeeTitle": "Kawa",
+    "coffeeDesc": "Espresso, flat white i latte na ziarnach specialty.",
+    "coffeeAlt": "Kawa w Czarne Mleko",
+    "specialtyTitle": "Napoje specjalne",
+    "specialtyDesc": "Matcha, sezonowe latte i alternatywne parzenie.",
+    "specialtyAlt": "Napoje specjalne w Czarne Mleko"
+  },
+  "highlight": {
+    "breakfastTitle": "Śniadanie",
+    "breakfastBody": "Tosty, jajka i talerze na spokojny start — serwujemy codziennie do 14:00.",
+    "brunchTitle": "Brunch",
+    "brunchBody": "Ciepłe dania i sezonowe smaki — idealnie, gdy chcesz zostać na dłużej.",
+    "coffeeTitle": "Kawa",
+    "coffeeBody": "Espresso, przelew i klasyki na mleku — palona i parzona z troską o balans."
+  },
+  "menu": {
+    "eyebrow": "Śniadania · kawa · lunch",
+    "title": "Menu",
+    "lead": "Śniadania, lunch, słodkości i napoje — przez cały dzień.",
+    "catFood": "Jedzenie",
+    "catBreakfast": "Śniadania",
+    "catPanini": "Panini",
+    "catScrambled": "Jajecznica",
+    "catSandwiches": "Kanapki",
+    "catToasts": "Tosty",
+    "catSalads": "Sałatka",
+    "catSweet": "Trochę słodkości",
+    "catDrinks": "Napoje",
+    "catSeasonalLattes": "Sezonowe latte",
+    "catExtras": "Dodatki",
+    "catMatcha": "Matcha i napoje specjalne",
+    "catHotDrinks": "Inne napoje na ciepło",
+    "catColdAlt": "Alternatywy kawowe i napoje na zimno",
+    "catColdCoffee": "Kawa na zimno i napoje letnie",
+    "catAltBrew": "Alternatywne parzenie",
+    "catFreshJuice": "Świeżo wyciskane soki",
+    "catCoffee": "Kawa",
+    "food": {
+      "french_toast": {
+        "name": "Tosty francuskie",
+        "price": "33 zł",
+        "desc": "Brioszka naszego wypieku z cynamonem, karmelizowaną śliwką, kruszonką i śmietaną."
+      },
+      "brioche_kimchi": {
+        "name": "Brioszka z kimchi i jajkiem sadzonym",
+        "price": "33 zł",
+        "desc": "Brioszka z kimchi, jajkiem sadzonym, serkiem śmietankowym, sałatą z rukoli, ogórkiem, cebulą, szczypiorkiem i sezamem."
+      },
+      "chorizo_omelette": {
+        "name": "Omlet z chorizo",
+        "price": "33 zł",
+        "desc": "Omlet z sosem pomidorowym, brioszką naszego wypieku i sałatką sezonową."
+      },
+      "panini_chicken": {
+        "name": "Z kurczakiem",
+        "price": "",
+        "desc": "Pieczony kurczak i camembert, podawane z sałatką i sosem miodowo-musztardowym."
+      },
+      "panini_vege": {
+        "name": "Wegetariańska",
+        "price": "",
+        "desc": "Mozzarella i suszone pomidory, podawane z sałatką i sosem miodowo-musztardowym."
+      },
+      "scrambled": {
+        "name": "Jajecznica",
+        "price": "",
+        "desc": "2 jajka z żółtym serem, szynką, sałatką warzywną, sosem miodowo-musztardowym i ciepłym pieczywem."
+      },
+      "sandwiches": {
+        "name": "Kanapki",
+        "price": "",
+        "desc": "z kurczakiem i camembertem · z suszonymi pomidorami i mozzarellą · z awokado i pastą z suszonych pomidorów"
+      },
+      "toasts": {
+        "name": "Tosty",
+        "price": "",
+        "desc": "Z żółtym serem, szynką, sosem majonezowym i sałatką warzywną. Dostępne w wersji małej i dużej."
+      },
+      "salad_chicken": {
+        "name": "Z kurczakiem",
+        "price": "",
+        "desc": "Kurczak, camembert, warzywa, sos miodowo-musztardowy, ciepłe pieczywo."
+      },
+      "salad_salmon": {
+        "name": "Z łososiem",
+        "price": "",
+        "desc": "Wędzony łosoś, mozzarella, warzywa, sos miodowo-musztardowy, ciepłe pieczywo."
+      },
+      "sweet_bowls": {
+        "name": "Granola · pudding chia · tapioka · owsianka",
+        "price": "",
+        "desc": "mleko / woda / mleko roślinne (+3 zł)"
+      },
+      "sweet_toasts": {
+        "name": "Słodkie tosty",
+        "price": "",
+        "desc": "masło orzechowe · karmel i banan"
+      }
+    },
+    "drinks": {
+      "pumpkin_spice": {
+        "name": "Pumpkin spice latte",
+        "price": "18 zł",
+        "desc": "230 / 400 ml"
+      },
+      "vanilla_cinnamon": {
+        "name": "Wanilia z cynamonem",
+        "price": "18 zł",
+        "desc": "Latte waniliowo-cynamonowe.\n230 / 400 ml"
+      },
+      "spiced_latte": {
+        "name": "Korzenne latte",
+        "price": "18 zł",
+        "desc": "230 / 400 ml"
+      },
+      "mocha": {
+        "name": "Mokka",
+        "price": "18 zł",
+        "desc": "230 / 400 ml"
+      },
+      "extra_espresso": {
+        "name": "Dodatkowe espresso",
+        "price": "5 zł"
+      },
+      "plant_milk": {
+        "name": "Mleko roślinne",
+        "price": "2 zł"
+      },
+      "plum_matcha": {
+        "name": "Śliwkowa matcha latte",
+        "price": "21 zł",
+        "desc": "300 ml"
+      },
+      "salted_matcha": {
+        "name": "Salted matcha z miodem",
+        "price": "21 zł",
+        "desc": "300 ml"
+      },
+      "hojicha": {
+        "name": "Hojicha latte",
+        "price": "20 zł",
+        "desc": "Alternatywa dla matchy.\n300 ml"
+      },
+      "chai": {
+        "name": "Chai latte",
+        "price": "19 zł",
+        "desc": "300 ml"
+      },
+      "lavender_ginger": {
+        "name": "Lawendowy napar imbirowy",
+        "price": "20 zł",
+        "desc": "Napar lawendowo-imbirowy z cytrusami i miodem.\n400 ml"
+      },
+      "warming_tea": {
+        "name": "Herbata rozgrzewająca",
+        "price": "20 zł",
+        "desc": "Herbata czarna z cytrusami, goździkami i malinami.\n400 ml"
+      },
+      "cold_alt": {
+        "name": "Alternatywy kawowe i napoje na zimno",
+        "price": "",
+        "desc": "Herbaty aromatyczne · herbata czarna · herbata zielona · napar imbirowy · kakao · świeżo wyciskany sok pomarańczowy · smoothie owocowe · koktajl owocowy · woda gazowana / niegazowana · napoje butelkowane"
+      },
+      "cold_coffee": {
+        "name": "Kawa na zimno i napoje letnie",
+        "price": "",
+        "desc": "Doppio z sokiem pomarańczowym · tonic espresso · iced drip · lemoniada · mrożona herbata owocowa · ice matcha · matcha tonic"
+      },
+      "drip": {
+        "name": "Drip",
+        "price": "",
+        "desc": "250 ml"
+      },
+      "chemex": {
+        "name": "Chemex",
+        "price": "",
+        "desc": "300 ml"
+      },
+      "orange_juice": {
+        "name": "Pomarańcza",
+        "price": ""
+      },
+      "grapefruit_juice": {
+        "name": "Grejpfrut",
+        "price": ""
+      },
+      "espresso": {
+        "name": "Espresso",
+        "price": ""
+      },
+      "doppio": {
+        "name": "Doppio",
+        "price": ""
+      },
+      "black_coffee": {
+        "name": "Kawa czarna",
+        "price": ""
+      },
+      "flat_white": {
+        "name": "Flat white",
+        "price": ""
+      },
+      "cappuccino": {
+        "name": "Cappuccino",
+        "price": "",
+        "desc": "mały / duży"
+      },
+      "latte": {
+        "name": "Latte",
+        "price": "",
+        "desc": "mały / duży · opcja mleka roślinnego"
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Same dobre rzeczy",
+    "title": "Galeria smaków",
+    "lead": "Śniadania, brunch i kawa — rzeczy z menu i baru.",
+    "photoDot": "Zdjęcie {{n}} z {{total}}",
+    "vibeBreakfast": "Śniadanie w Czarne Mleko",
+    "vibeSavory": "Słodko-słone danie w Czarne Mleko",
+    "vibeCakes": "Ciasta w Czarne Mleko"
+  },
+  "galleryAlt": {
+    "croissant": "Maślany croissant z espresso",
+    "shakshuka": "Szakszuka na patelni",
+    "drink": "Warstwowy napój kawowy na zimno",
+    "figToast": "Tost śniadaniowy z figą",
+    "cake": "Kawałek ciasta na talerzu",
+    "strawberryCake": "Ciasto z truskawkami",
+    "bagel": "Bajgiel z nadzieniem i dodatkami",
+    "twoBeverages": "Dwa kolorowe napoje w szklankach"
+  },
+  "gallery.capCroissantTitle": "Croissant i espresso",
+  "gallery.capCroissantSub": "Poranki, które pachną masłem.",
+  "gallery.capShakshukaTitle": "Szakszuka",
+  "gallery.capShakshukaSub": "Ciepły talerz pełen aromatu.",
+  "gallery.capDrinkTitle": "Orzeźwiająca kawa",
+  "gallery.capDrinkSub": "Lód, syrop owocowy, espresso.",
+  "gallery.capFigToastTitle": "Tost z figą",
+  "gallery.capFigToastSub": "Słodko-słony poranek na chrupiącym pieczywie.",
+  "gallery.capCakeTitle": "Ciasto z menu",
+  "gallery.capCakeSub": "Deser, który dobrze kończy wizytę.",
+  "gallery.capStrawberryCakeTitle": "Ciasto truskawkowe",
+  "gallery.capStrawberryCakeSub": "Sezonowy akcent i lekka słodycz.",
+  "gallery.capBagelTitle": "Bajgiel śniadaniowy",
+  "gallery.capBagelSub": "Soczyste nadzienie i świeże dodatki.",
+  "gallery.capTwoBeveragesTitle": "Napoje z baru",
+  "gallery.capTwoBeveragesSub": "Kolorowe miksy — idealne na lato.",
+  "about": {
+    "eyebrow": "Nasze miejsce",
+    "title": "O nas",
+    "tagline": "Kawa specialty · śniadania · lunch",
+    "altInterior": "Wnętrze kawiarni Czarne Mleko",
+    "altWelcome": "Powitanie w Czarne Mleko",
+    "altFamily": "Rodzinna atmosfera w Czarne Mleko",
+    "altFriends": "Spotkania przy kawie w Czarne Mleko",
+    "altOwner": "Właścicielka Czarne Mleko z psem",
+    "photoDot": "Zdjęcie {{n}} z {{total}}"
+  },
+  "testimonials": {
+    "title": "Opinie",
+    "averageScore": "4,7",
+    "scoreSuffix": " na 5 gwiazdek",
+    "basedOn": "Na podstawie ",
+    "reviewCount": "983 opinie",
+    "fiveStarsAria": "Ocena 5 na 5 gwiazdek",
+    "carouselDots": "Wskaźniki opinii",
+    "carouselDot": "Opinia {{n}} z {{total}}",
+    "quote1": "Tu pachnie kawą od progu — croissant i flat white na poziomie.",
+    "quote2": "Szakszuka jak z moich wakacji — wracam na weekendowy brunch.",
+    "quote3": "Obsługa bez pośpiechu, idealnie na spotkanie z książką.",
+    "quote4": "Najlepsza kawa w okolicy — flat white i ciasto za każdym razem na poziomie.",
+    "quote5": "Spokój, przestrzeń i śniadanie przed pracą — dokładnie tego szukałem.",
+    "quote6": "Obsługa bez pośpiechu — jak kawowa chwila u znajomych.",
+    "quote7": "Weekendowy brunch to nasza tradycja — porcje szczodre i wyraziste smaki.",
+    "quote8": "Klimatyczny lokal i muzyka w tle — idealnie na kawę z przyjaciółmi.",
+    "quote9": "Szczególnie polecam szakszukę i domowe wypieki — wracam po więcej."
+  },
+  "location": {
+    "eyebrow": "Odwiedź nas",
+    "title": "Lokalizacja",
+    "line1": "ul. Jana Henryka Dąbrowskiego 68",
+    "line2": "60-522 Poznań, Polska",
+    "mapIframeTitle": "Czarne Mleko w Mapach Google",
+    "mapLink": "Otwórz miejsce w Mapach Google"
+  },
+  "contact": {
+    "eyebrow": "Napisz do nas",
+    "title": "Kontakt",
+    "phone": "Telefon",
+    "email": "E-mail",
+    "social": "Social media",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "hours": "Godziny",
+    "dayMon": "Poniedziałek",
+    "dayTue": "Wtorek",
+    "dayWed": "Środa",
+    "dayThu": "Czwartek",
+    "dayFri": "Piątek",
+    "daySat": "Sobota",
+    "daySun": "Niedziela",
+    "hoursMon": "8:00–19:00",
+    "hoursTue": "8:00–19:00",
+    "hoursWed": "8:00–19:00",
+    "hoursThu": "8:00–19:00",
+    "hoursFri": "8:00–19:00",
+    "hoursSat": "10:00–19:00",
+    "hoursSun": "10:00–19:00",
+    "hoursWeekday": "Pn–Pt 8:00–19:00",
+    "hoursSunday": "Sb–Nd 10:00–19:00",
+    "hoursHolidayNote": "W święta godziny mogą być inne."
+  },
+  "footer": {
+    "tagline": "Kawa, śniadania i lunch — ul. Dąbrowskiego 68, Poznań.",
+    "contactHeading": "Kontakt",
+    "hoursHeading": "Godziny",
+    "hoursText": "Pn–Pt 8:00–19:00 · Sb–Nd 10:00–19:00",
+    "followHeading": "Obserwuj",
+    "instagram": "Instagram",
+    "facebook": "Facebook · Czarne Mleko",
+    "instagramShort": "Instagram",
+    "facebookShort": "Facebook"
+  }
+}

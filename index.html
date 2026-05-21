@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Czarne Mleko | Kawa i śniadania</title>
+    <meta
+      name="description"
+      content="Czarne Mleko — kawa, śniadania i lunch. ul. Dąbrowskiego 68, Poznań."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon-64.png" sizes="64x64" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="a11y.skipLink">Przejdź do treści</a>
+
+    <header class="site-header site-header--overlay" id="top">
+      <div class="header-inner">
+        <a
+          class="logo"
+          href="#top"
+          data-i18n-attr="aria-label:a11y.logoHome"
+          aria-label="Strona główna Czarne Mleko"
+        >
+          <span class="logo-mark" aria-hidden="true">
+            <img
+              src="assets/hero-and-logo/logo.jpg"
+              alt=""
+              width="96"
+              height="96"
+              decoding="async"
+            />
+          </span>
+          <span class="logo-wordmark">
+            <span class="logo-big brand-name notranslate" translate="no">Czarne Mleko</span>
+          </span>
+        </a>
+
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          <span class="nav-toggle-lines" aria-hidden="true"></span>
+          <span class="sr-only" data-i18n="a11y.navMobileLabel">Menu</span>
+        </button>
+
+        <nav
+          class="site-nav"
+          id="site-nav"
+          aria-label="Menu główne"
+          data-i18n-attr="aria-label:a11y.navPrimary"
+        >
+          <div class="site-nav-panel">
+            <div class="site-nav-links">
+              <a href="#menu" data-i18n="nav.menu">Menu</a>
+              <a href="#gallery" data-i18n="nav.gallery">Galeria</a>
+              <a href="#about" data-i18n="nav.about">O nas</a>
+              <a href="#testimonials" data-i18n="nav.testimonials">Opinie</a>
+              <a href="#location" data-i18n="nav.location">Lokalizacja</a>
+              <a href="#contact" data-i18n="nav.contact">Kontakt</a>
+            </div>
+            <div class="site-nav-actions">
+              <div
+                class="lang-switch"
+                role="group"
+                data-i18n-attr="aria-label:a11y.langSwitch"
+                aria-label="Wybór języka"
+              >
+                <button type="button" class="lang-switch-btn" data-lang="pl" aria-pressed="true">PL</button>
+                <button type="button" class="lang-switch-btn" data-lang="en" aria-pressed="false">EN</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Hero -->
+      <section class="hero hero--inspo" aria-labelledby="hero-title">
+        <figure class="hero-photo" aria-hidden="true">
+          <img
+            src="assets/hero-and-logo/hero.jpg"
+            alt=""
+            class="notranslate"
+            translate="no"
+            data-i18n-attr="alt:hero.heroImageAlt"
+            width="1200"
+            height="800"
+            decoding="async"
+            fetchpriority="high"
+          />
+        </figure>
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <h1 id="hero-title" class="hero-title">
+              <span class="hero-title-big" data-i18n="hero.headline">kawa, śniadania, spokojne poranki</span>
+            </h1>
+            <p class="hero-lead" data-i18n="hero.lead">kawa specialty · śniadania · lunch</p>
+            <div class="hero-cta-cluster">
+              <a class="btn-text hero-cta-secondary" href="#menu" data-i18n="hero.ctaMenu">Zobacz menu</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Intro split (inspo) -->
+      <section class="intro-split" aria-labelledby="intro-heading">
+        <figure class="intro-split-col intro-split-col--photo">
+          <img
+            src="assets/after-hero-image/cakes-rasp.jpg"
+            alt=""
+            width="900"
+            height="1200"
+            loading="lazy"
+            decoding="async"
+            data-i18n-attr="alt:intro.photoAlt"
+          />
+        </figure>
+        <div class="intro-split-col intro-split-col--cream">
+          <h2 id="intro-heading" class="intro-split-title" data-i18n="intro.title">Od rana do wieczora</h2>
+          <p class="intro-split-lead" data-i18n="intro.lead">
+            Śniadania all day, sezonowe talerze i kawa speciality — smacznie, uczciwie i z serca.
+          </p>
+          <a class="link-underline intro-cta" href="#menu" data-i18n="classics.cta">Pełne menu</a>
+        </div>
+        <div class="intro-split-col intro-split-col--sage" id="location-preview">
+          <h2 class="intro-split-title intro-split-title--light" data-i18n="intro.sageTitle">kawa z charakterem</h2>
+          <p class="intro-location-text" data-i18n="intro.sageLead">
+            Specialty coffee, domowe wypieki i spokojna atmosfera — idealnie na poranek w Jeżycach.
+          </p>
+          <a class="link-underline link-underline--light intro-map-link" href="#about" data-i18n="intro.sageCta">O naszej kawie</a>
+        </div>
+      </section>
+
+      <!-- Classics (inspo) -->
+      <section class="segment segment-classics" id="classics" aria-labelledby="classics-heading">
+        <div class="segment-inner classics-layout">
+          <header class="classics-head">
+            <p class="classics-eyebrow" data-i18n="classics.eyebrow">Na talerzu</p>
+            <h2 id="classics-heading" class="section-title" data-i18n="classics.title">Nasze klasyki</h2>
+            <p class="classics-intro-lead" data-i18n="classics.lead">Sezonowe składniki, domowe receptury i smaki, do których chce się wracać.</p>
+            <a class="link-underline classics-cta" href="#menu" data-i18n="classics.cta">Pełne menu</a>
+          </header>
+          <ul class="classics-grid">
+            <li class="classic-card">
+              <div class="classic-card-photo">
+                <img src="assets/classics/lunch.jpg" alt="" loading="lazy" decoding="async" data-i18n-attr="alt:classics.lunchAlt" />
+              </div>
+              <h3 class="classic-card-title" data-i18n="classics.lunchTitle">Lunch</h3>
+              <p class="classic-card-desc" data-i18n="classics.lunchDesc">Panini, sałatki i ciepłe dania na co dzień.</p>
+            </li>
+            <li class="classic-card">
+              <div class="classic-card-photo">
+                <img src="assets/classics/baked-goods.jpg" alt="" loading="lazy" decoding="async" data-i18n-attr="alt:classics.bakedAlt" />
+              </div>
+              <h3 class="classic-card-title" data-i18n="classics.bakedTitle">Wypieki</h3>
+              <p class="classic-card-desc" data-i18n="classics.bakedDesc">Domowe ciasta i słodkości idealne do kawy.</p>
+            </li>
+            <li class="classic-card">
+              <div class="classic-card-photo">
+                <img src="assets/classics/coffee.jpg" alt="" loading="lazy" decoding="async" data-i18n-attr="alt:classics.coffeeAlt" />
+              </div>
+              <h3 class="classic-card-title" data-i18n="classics.coffeeTitle">Kawa</h3>
+              <p class="classic-card-desc" data-i18n="classics.coffeeDesc">Espresso, flat white i latte na ziarnach specialty.</p>
+            </li>
+            <li class="classic-card">
+              <div class="classic-card-photo">
+                <img src="assets/classics/specialty-drinks.jpg" alt="" loading="lazy" decoding="async" data-i18n-attr="alt:classics.specialtyAlt" />
+              </div>
+              <h3 class="classic-card-title" data-i18n="classics.specialtyTitle">Napoje specjalne</h3>
+              <p class="classic-card-desc" data-i18n="classics.specialtyDesc">Matcha, sezonowe latte i alternatywne parzenie.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Menu -->
+      <section class="segment segment-menu" id="menu" aria-labelledby="menu-heading">
+        <div class="segment-inner menu-layout">
+          <header class="menu-intro">
+            <div class="menu-intro-text">
+              <p class="eyebrow dusty-text" data-i18n="menu.eyebrow">Śniadania · kawa · lunch</p>
+              <h2 id="menu-heading" class="section-title" data-i18n="menu.title">Menu</h2>
+              <span class="rule"></span>
+              <p class="lead menu-intro-lead" data-i18n="menu.lead">
+                Śniadania, lunch, słodkości i napoje — przez cały dzień.
+              </p>
+            </div>
+          </header>
+
+          <div class="menu-catalog">
+            <div class="menu-catalog-columns">
+              <div class="menu-catalog-col menu-catalog-col--food">
+            <div class="menu-category">
+              <h3 class="menu-category-heading" data-i18n="menu.catFood">Jedzenie</h3>
+              <h4 class="menu-subcategory-heading" data-i18n="menu.catBreakfast">Śniadania</h4>
+
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.food.french_toast.name">Tosty francuskie</span>
+                    <span class="menu-item-price" data-i18n="menu.food.french_toast.price">33 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.food.french_toast.desc">Brioszka naszego wypieku z cynamonem, karmelizowaną śliwką, kruszonką i śmietaną.</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.food.brioche_kimchi.name">Brioszka z kimchi i jajkiem sadzonym</span>
+                    <span class="menu-item-price" data-i18n="menu.food.brioche_kimchi.price">33 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.food.brioche_kimchi.desc">Brioszka z kimchi, jajkiem sadzonym, serkiem śmietankowym, sałatą z rukoli, ogórkiem, cebulą, szczypiorkiem i sezamem.</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.food.chorizo_omelette.name">Omlet z chorizo</span>
+                    <span class="menu-item-price" data-i18n="menu.food.chorizo_omelette.price">33 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.food.chorizo_omelette.desc">Omlet z sosem pomidorowym, brioszką naszego wypieku i sałatką sezonową.</p>
+                </li>
+              </ul>
+
+              <h4 class="menu-subcategory-heading" data-i18n="menu.catPanini">Panini</h4>
+
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.food.panini_chicken.name">Z kurczakiem</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.food.panini_chicken.desc">Pieczony kurczak i camembert, podawane z sałatką i sosem miodowo-musztardowym.</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.food.panini_vege.name">Wegetariańska</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.food.panini_vege.desc">Mozzarella i suszone pomidory, podawane z sałatką i sosem miodowo-musztardowym.</p>
+                </li>
+              </ul>
+
+              <h4 class="menu-subcategory-heading" data-i18n="menu.catScrambled">Jajecznica</h4>
+
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.food.scrambled.name">Jajecznica</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.food.scrambled.desc">2 jajka z żółtym serem, szynką, sałatką warzywną, sosem miodowo-musztardowym i ciepłym pieczywem.</p>
+                </li>
+              </ul>
+
+              <h4 class="menu-subcategory-heading" data-i18n="menu.catSandwiches">Kanapki</h4>
+
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.food.sandwiches.name">Kanapki</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.food.sandwiches.desc">z kurczakiem i camembertem · z suszonymi pomidorami i mozzarellą · z awokado i pastą z suszonych pomidorów</p>
+                </li>
+              </ul>
+
+              <h4 class="menu-subcategory-heading" data-i18n="menu.catToasts">Tosty</h4>
+
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.food.toasts.name">Tosty</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.food.toasts.desc">Z żółtym serem, szynką, sosem majonezowym i sałatką warzywną. Dostępne w wersji małej i dużej.</p>
+                </li>
+              </ul>
+
+              <h4 class="menu-subcategory-heading" data-i18n="menu.catSalads">Sałatka</h4>
+
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.food.salad_chicken.name">Z kurczakiem</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.food.salad_chicken.desc">Kurczak, camembert, warzywa, sos miodowo-musztardowy, ciepłe pieczywo.</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.food.salad_salmon.name">Z łososiem</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.food.salad_salmon.desc">Wędzony łosoś, mozzarella, warzywa, sos miodowo-musztardowy, ciepłe pieczywo.</p>
+                </li>
+              </ul>
+
+              <h4 class="menu-subcategory-heading" data-i18n="menu.catSweet">Trochę słodkości</h4>
+
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.food.sweet_bowls.name">Granola · pudding chia · tapioka · owsianka</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.food.sweet_bowls.desc">mleko / woda / mleko roślinne (+3 zł)</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.food.sweet_toasts.name">Słodkie tosty</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.food.sweet_toasts.desc">masło orzechowe · karmel i banan</p>
+                </li>
+              </ul>
+
+            </div>
+              </div>
+              <div class="menu-catalog-col menu-catalog-col--drinks">
+            <div class="menu-category">
+              <h3 class="menu-category-heading" data-i18n="menu.catDrinks">Napoje</h3>
+              <h4 class="menu-subcategory-heading" data-i18n="menu.catSeasonalLattes">Sezonowe latte</h4>
+
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.pumpkin_spice.name">Pumpkin spice latte</span>
+                    <span class="menu-item-price" data-i18n="menu.drinks.pumpkin_spice.price">18 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.drinks.pumpkin_spice.desc">230 / 400 ml</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.vanilla_cinnamon.name">Wanilia z cynamonem</span>
+                    <span class="menu-item-price" data-i18n="menu.drinks.vanilla_cinnamon.price">18 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.drinks.vanilla_cinnamon.desc">Latte waniliowo-cynamonowe.
+230 / 400 ml</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.spiced_latte.name">Korzenne latte</span>
+                    <span class="menu-item-price" data-i18n="menu.drinks.spiced_latte.price">18 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.drinks.spiced_latte.desc">230 / 400 ml</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.mocha.name">Mokka</span>
+                    <span class="menu-item-price" data-i18n="menu.drinks.mocha.price">18 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.drinks.mocha.desc">230 / 400 ml</p>
+                </li>
+              </ul>
+
+              <h4 class="menu-subcategory-heading" data-i18n="menu.catExtras">Dodatki</h4>
+
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.extra_espresso.name">Dodatkowe espresso</span>
+                    <span class="menu-item-price" data-i18n="menu.drinks.extra_espresso.price">5 zł</span>
+                  </div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.plant_milk.name">Mleko roślinne</span>
+                    <span class="menu-item-price" data-i18n="menu.drinks.plant_milk.price">2 zł</span>
+                  </div>
+                </li>
+              </ul>
+
+              <h4 class="menu-subcategory-heading" data-i18n="menu.catMatcha">Matcha i napoje specjalne</h4>
+
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.plum_matcha.name">Śliwkowa matcha latte</span>
+                    <span class="menu-item-price" data-i18n="menu.drinks.plum_matcha.price">21 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.drinks.plum_matcha.desc">300 ml</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.salted_matcha.name">Salted matcha z miodem</span>
+                    <span class="menu-item-price" data-i18n="menu.drinks.salted_matcha.price">21 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.drinks.salted_matcha.desc">300 ml</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.hojicha.name">Hojicha latte</span>
+                    <span class="menu-item-price" data-i18n="menu.drinks.hojicha.price">20 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.drinks.hojicha.desc">Alternatywa dla matchy.
+300 ml</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.chai.name">Chai latte</span>
+                    <span class="menu-item-price" data-i18n="menu.drinks.chai.price">19 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.drinks.chai.desc">300 ml</p>
+                </li>
+              </ul>
+
+              <h4 class="menu-subcategory-heading" data-i18n="menu.catHotDrinks">Inne napoje na ciepło</h4>
+
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.lavender_ginger.name">Lawendowy napar imbirowy</span>
+                    <span class="menu-item-price" data-i18n="menu.drinks.lavender_ginger.price">20 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.drinks.lavender_ginger.desc">Napar lawendowo-imbirowy z cytrusami i miodem.
+400 ml</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.warming_tea.name">Herbata rozgrzewająca</span>
+                    <span class="menu-item-price" data-i18n="menu.drinks.warming_tea.price">20 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.drinks.warming_tea.desc">Herbata czarna z cytrusami, goździkami i malinami.
+400 ml</p>
+                </li>
+              </ul>
+
+              <h4 class="menu-subcategory-heading" data-i18n="menu.catColdAlt">Alternatywy kawowe i napoje na zimno</h4>
+
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.cold_alt.name">Alternatywy kawowe i napoje na zimno</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.drinks.cold_alt.desc">Herbaty aromatyczne · herbata czarna · herbata zielona · napar imbirowy · kakao · świeżo wyciskany sok pomarańczowy · smoothie owocowe · koktajl owocowy · woda gazowana / niegazowana · napoje butelkowane</p>
+                </li>
+              </ul>
+
+              <h4 class="menu-subcategory-heading" data-i18n="menu.catColdCoffee">Kawa na zimno i napoje letnie</h4>
+
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.cold_coffee.name">Kawa na zimno i napoje letnie</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.drinks.cold_coffee.desc">Doppio z sokiem pomarańczowym · tonic espresso · iced drip · lemoniada · mrożona herbata owocowa · ice matcha · matcha tonic</p>
+                </li>
+              </ul>
+
+              <h4 class="menu-subcategory-heading" data-i18n="menu.catAltBrew">Alternatywne parzenie</h4>
+
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.drip.name">Drip</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.drinks.drip.desc">250 ml</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.chemex.name">Chemex</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.drinks.chemex.desc">300 ml</p>
+                </li>
+              </ul>
+
+              <h4 class="menu-subcategory-heading" data-i18n="menu.catFreshJuice">Świeżo wyciskane soki</h4>
+
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.orange_juice.name">Pomarańcza</span>
+                  </div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.grapefruit_juice.name">Grejpfrut</span>
+                  </div>
+                </li>
+              </ul>
+
+              <h4 class="menu-subcategory-heading" data-i18n="menu.catCoffee">Kawa</h4>
+
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.espresso.name">Espresso</span>
+                  </div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.doppio.name">Doppio</span>
+                  </div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.black_coffee.name">Kawa czarna</span>
+                  </div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.flat_white.name">Flat white</span>
+                  </div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.cappuccino.name">Cappuccino</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.drinks.cappuccino.desc">mały / duży</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.latte.name">Latte</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.drinks.latte.desc">mały / duży · opcja mleka roślinnego</p>
+                </li>
+              </ul>
+
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section class="segment segment-gallery segment-gallery--vibe" id="gallery" aria-label="Galeria" data-i18n-attr="aria-label:a11y.galleryRegion">
+        <div class="vibe-gallery">
+          <figure class="vibe-gallery-item">
+            <img src="assets/gallery/breakfast.jpg" alt="" loading="lazy" decoding="async" data-i18n-attr="alt:gallery.vibeBreakfast" />
+          </figure>
+          <figure class="vibe-gallery-item">
+            <img src="assets/gallery/sweet-and-savory.jpg" alt="" loading="lazy" decoding="async" data-i18n-attr="alt:gallery.vibeSavory" />
+          </figure>
+          <figure class="vibe-gallery-item">
+            <img src="assets/gallery/cakes.jpg" alt="" loading="lazy" decoding="async" data-i18n-attr="alt:gallery.vibeCakes" />
+          </figure>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="segment segment-about dusty-panel" id="about" aria-labelledby="about-heading">
+        <div class="segment-inner about-stack">
+          <div class="segment-head center-head about-head-dusty">
+            <p class="eyebrow inverted-eyebrow" data-i18n="about.eyebrow">Nasze miejsce</p>
+            <h2 id="about-heading" class="section-title inverted-title" data-i18n="about.title">O nas</h2>
+            <span class="rule rule-light center-rule"></span>
+            <p class="about-love-line" data-i18n="about.tagline">Kawa specialty · śniadania · lunch</p>
+          </div>
+
+          <div
+            class="about-gallery"
+            data-about-gallery
+            role="region"
+            aria-label="Galeria Czarne Mleko"
+            data-i18n-attr="aria-label:a11y.galleryRegion"
+          >
+            <div
+              class="about-photo-grid"
+              tabindex="0"
+              role="group"
+              aria-label="Zdjęcia"
+              data-i18n-attr="aria-label:a11y.galleryPhotos"
+            >
+              <figure class="about-photo-card">
+                <img
+                  src="assets/about-us/interior.jpg"
+                  alt="Wnętrze kawiarni Czarne Mleko"
+                  data-i18n-attr="alt:about.altInterior"
+                  width="1080"
+                  height="1351"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+              <figure class="about-photo-card">
+                <img
+                  src="assets/about-us/welcome.jpg"
+                  alt="Powitanie w Czarne Mleko"
+                  data-i18n-attr="alt:about.altWelcome"
+                  width="1024"
+                  height="1280"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+              <figure class="about-photo-card">
+                <img
+                  src="assets/about-us/family-oriented.jpg"
+                  alt="Rodzinna atmosfera w Czarne Mleko"
+                  data-i18n-attr="alt:about.altFamily"
+                  width="800"
+                  height="600"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+              <figure class="about-photo-card">
+                <img
+                  src="assets/about-us/friends.jpg"
+                  alt="Spotkania przy kawie w Czarne Mleko"
+                  data-i18n-attr="alt:about.altFriends"
+                  width="800"
+                  height="600"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+              <figure class="about-photo-card">
+                <img
+                  src="assets/about-us/owner-with-dog.jpg"
+                  alt="Właścicielka Czarne Mleko z psem"
+                  data-i18n-attr="alt:about.altOwner"
+                  width="800"
+                  height="600"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+            </div>
+            <div class="about-photo-dots" aria-label="Wskaźniki zdjęć" data-i18n-attr="aria-label:a11y.galleryDots"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="segment" id="testimonials" aria-labelledby="testimonials-heading">
+        <div class="segment-inner">
+          <div class="segment-head center-head">
+            <h2 id="testimonials-heading" class="section-title" data-i18n="testimonials.title">Opinie</h2>
+            <span class="rule center-rule"></span>
+            <p class="testimonials-summary">
+              <span class="testimonials-summary-row">
+                <strong class="testimonials-score"
+                  ><span data-i18n="testimonials.averageScore">4,7</span
+                  ><span class="sr-only" data-i18n="testimonials.scoreSuffix"> na 5 gwiazdek</span></strong
+                >
+                <span class="aggregate-stars" aria-hidden="true">
+                  <svg class="aggregate-star-svg" viewBox="0 0 24 24" focusable="false">
+                    <path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                  </svg>
+                  <svg class="aggregate-star-svg" viewBox="0 0 24 24" focusable="false">
+                    <path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                  </svg>
+                  <svg class="aggregate-star-svg" viewBox="0 0 24 24" focusable="false">
+                    <path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                  </svg>
+                  <svg class="aggregate-star-svg" viewBox="0 0 24 24" focusable="false">
+                    <path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                  </svg>
+                  <span class="aggregate-star-partial" style="--aggregate-star-fill: 0.7">
+                    <svg class="aggregate-star-svg aggregate-star-svg--track" viewBox="0 0 24 24" focusable="false">
+                      <path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                    </svg>
+                    <span class="aggregate-star-partial-fill">
+                      <svg class="aggregate-star-svg" viewBox="0 0 24 24" focusable="false">
+                        <path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                      </svg>
+                    </span>
+                  </span>
+                </span>
+                <span class="testimonials-summary-dot" aria-hidden="true">·</span>
+                <span class="testimonials-review-count"
+                  ><span class="sr-only" data-i18n="testimonials.basedOn">Na podstawie </span
+                  ><span data-i18n="testimonials.reviewCount">983 opinie</span></span
+                >
+              </span>
+            </p>
+          </div>
+          <div class="testimonials-quotes" role="region" aria-labelledby="testimonials-heading">
+            <div class="quotes">
+              <blockquote class="quote-card quote-card--review">
+                <div class="quote-card-meta">
+                  <img class="quote-card-avatar" src="assets/testimonial-icons/tomek-kreczmar.png" alt="" width="104" height="104" loading="lazy" decoding="async" />
+                  <div class="quote-stars-wrap">
+                    <div class="quote-stars" role="img" aria-label="Ocena 5 na 5 gwiazdek" data-i18n-attr="aria-label:testimonials.fiveStarsAria">
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <p data-i18n="testimonials.quote1">Tu pachnie kawą od progu — croissant i flat white na poziomie.</p>
+                <footer>Tomek K.</footer>
+              </blockquote>
+              <blockquote class="quote-card quote-card--review">
+                <div class="quote-card-meta">
+                  <img class="quote-card-avatar" src="assets/testimonial-icons/marta-cacic.png" alt="" width="104" height="104" loading="lazy" decoding="async" />
+                  <div class="quote-stars-wrap">
+                    <div class="quote-stars" role="img" aria-label="Ocena 5 na 5 gwiazdek" data-i18n-attr="aria-label:testimonials.fiveStarsAria">
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <p data-i18n="testimonials.quote2">Szakszuka jak z moich wakacji — wracam na weekendowy brunch.</p>
+                <footer>Marta Ć.</footer>
+              </blockquote>
+              <blockquote class="quote-card quote-card--review">
+                <div class="quote-card-meta">
+                  <img class="quote-card-avatar" src="assets/testimonial-icons/palina-kratovich.png" alt="" width="104" height="104" loading="lazy" decoding="async" />
+                  <div class="quote-stars-wrap">
+                    <div class="quote-stars" role="img" aria-label="Ocena 5 na 5 gwiazdek" data-i18n-attr="aria-label:testimonials.fiveStarsAria">
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <p data-i18n="testimonials.quote3">Obsługa bez pośpiechu, idealnie na spotkanie z książką.</p>
+                <footer>Palina K.</footer>
+              </blockquote>
+              <blockquote class="quote-card quote-card--review quote-card--long-review">
+                <div class="quote-card-meta">
+                  <img class="quote-card-avatar" src="assets/testimonial-icons/aleksandra-markiewicz.png" alt="" width="104" height="104" loading="lazy" decoding="async" />
+                  <div class="quote-stars-wrap">
+                    <div class="quote-stars" role="img" aria-label="Ocena 5 na 5 gwiazdek" data-i18n-attr="aria-label:testimonials.fiveStarsAria">
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <p data-i18n="testimonials.quote4">Najlepsza kawa w okolicy — flat white i ciasto za każdym razem na poziomie.</p>
+                <footer>Aleksandra M.</footer>
+              </blockquote>
+              <blockquote class="quote-card quote-card--review quote-card--long-review">
+                <div class="quote-card-meta">
+                  <img class="quote-card-avatar" src="assets/testimonial-icons/artur-zieba.png" alt="" width="104" height="104" loading="lazy" decoding="async" />
+                  <div class="quote-stars-wrap">
+                    <div class="quote-stars" role="img" aria-label="Ocena 5 na 5 gwiazdek" data-i18n-attr="aria-label:testimonials.fiveStarsAria">
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <p data-i18n="testimonials.quote5">Spokój, przestrzeń i śniadanie przed pracą — dokładnie tego szukałem.</p>
+                <footer>Artur Z.</footer>
+              </blockquote>
+              <blockquote class="quote-card quote-card--review quote-card--long-review">
+                <div class="quote-card-meta">
+                  <img class="quote-card-avatar" src="assets/testimonial-icons/cindy-chou.png" alt="" width="104" height="104" loading="lazy" decoding="async" />
+                  <div class="quote-stars-wrap">
+                    <div class="quote-stars" role="img" aria-label="Ocena 5 na 5 gwiazdek" data-i18n-attr="aria-label:testimonials.fiveStarsAria">
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <p data-i18n="testimonials.quote6">Obsługa bez pośpiechu — jak kawowa chwila u znajomych.</p>
+                <footer>Cindy C.</footer>
+              </blockquote>
+              <blockquote class="quote-card quote-card--review quote-card--long-review">
+                <div class="quote-card-meta">
+                  <img class="quote-card-avatar" src="assets/testimonial-icons/julia-andrzejewska.png" alt="" width="104" height="104" loading="lazy" decoding="async" />
+                  <div class="quote-stars-wrap">
+                    <div class="quote-stars" role="img" aria-label="Ocena 5 na 5 gwiazdek" data-i18n-attr="aria-label:testimonials.fiveStarsAria">
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <p data-i18n="testimonials.quote7">Weekendowy brunch to nasza tradycja — porcje szczodre i wyraziste smaki.</p>
+                <footer>Julia A.</footer>
+              </blockquote>
+              <blockquote class="quote-card quote-card--review quote-card--long-review">
+                <div class="quote-card-meta">
+                  <img class="quote-card-avatar" src="assets/testimonial-icons/kirill-kaluga.png" alt="" width="104" height="104" loading="lazy" decoding="async" />
+                  <div class="quote-stars-wrap">
+                    <div class="quote-stars" role="img" aria-label="Ocena 5 na 5 gwiazdek" data-i18n-attr="aria-label:testimonials.fiveStarsAria">
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <p data-i18n="testimonials.quote8">Klimatyczny lokal i muzyka w tle — idealnie na kawę z przyjaciółmi.</p>
+                <footer>Kirill K.</footer>
+              </blockquote>
+              <blockquote class="quote-card quote-card--review quote-card--long-review">
+                <div class="quote-card-meta">
+                  <img class="quote-card-avatar" src="assets/testimonial-icons/mieczylaw-wila.png" alt="" width="104" height="104" loading="lazy" decoding="async" />
+                  <div class="quote-stars-wrap">
+                    <div class="quote-stars" role="img" aria-label="Ocena 5 na 5 gwiazdek" data-i18n-attr="aria-label:testimonials.fiveStarsAria">
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <p data-i18n="testimonials.quote9">Szczególnie polecam szakszukę i domowe wypieki — wracam po więcej.</p>
+                <footer>Mieczyław W.</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Location + Contact -->
+      <section class="segment segment-bottom" aria-label="Odwiedź nas" data-i18n-attr="aria-label:a11y.visitSection">
+        <div class="segment-inner two-col">
+          <div class="segment-block segment-panel" id="location">
+            <p class="eyebrow dusty-text" data-i18n="location.eyebrow">Odwiedź nas</p>
+            <h2 class="section-title" data-i18n="location.title">Lokalizacja</h2>
+            <span class="rule"></span>
+            <p class="address">
+              <span data-i18n="location.line1">ul. Jana Henryka Dąbrowskiego 68</span><br />
+              <span data-i18n="location.line2">60-522 Poznań, Polska</span>
+            </p>
+            <div class="location-map-wrap">
+              <iframe
+                title="Czarne Mleko w Mapach Google"
+                data-i18n-attr="title:location.mapIframeTitle"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://maps.google.com/maps?q=Czarne+Mleko+D%C4%85browskiego+68+Pozna%C5%84&amp;hl=pl&amp;z=17&amp;output=embed"
+                allowfullscreen=""
+              ></iframe>
+            </div>
+            <p class="location-map-link">
+              <a
+                href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x470444b6280f706b:0x431a94305dc28663"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="location.mapLink"
+              >
+                Otwórz miejsce w Mapach Google
+              </a>
+            </p>
+          </div>
+
+          <div class="segment-block segment-panel bordered" id="contact">
+            <p class="eyebrow dusty-text" data-i18n="contact.eyebrow">Napisz do nas</p>
+            <h2 class="section-title" data-i18n="contact.title">Kontakt</h2>
+            <span class="rule"></span>
+            <dl class="contact-lines">
+              <div>
+                <dt data-i18n="contact.phone">Telefon</dt>
+                <dd><a href="tel:+48797923244">797 923 244</a></dd>
+              </div>
+              <div>
+                <dt data-i18n="contact.email">E-mail</dt>
+                <dd>
+                  <a href="mailto:kawiarniaczarnemleko@gmail.com">kawiarniaczarnemleko@gmail.com</a>
+                </dd>
+              </div>
+
+              <div>
+                <dt data-i18n="contact.social">Social media</dt>
+                <dd class="contact-social-links">
+                  <a href="https://www.facebook.com/Czarne-mleko-1736689609892592" target="_blank" rel="noopener noreferrer" data-i18n="contact.facebook">Facebook</a>
+                </dd>
+              </div>
+              <div>
+                <dt data-i18n="contact.hours">Godziny</dt>
+                <dd>
+                  <dl class="contact-hours">
+                    <div class="contact-hours-row">
+                      <dt data-i18n="contact.dayMon">Poniedziałek</dt>
+                      <dd data-i18n="contact.hoursMon">8:00–19:00</dd>
+                    </div>
+                    <div class="contact-hours-row">
+                      <dt data-i18n="contact.dayTue">Wtorek</dt>
+                      <dd data-i18n="contact.hoursTue">8:00–19:00</dd>
+                    </div>
+                    <div class="contact-hours-row">
+                      <dt data-i18n="contact.dayWed">Środa</dt>
+                      <dd data-i18n="contact.hoursWed">8:00–19:00</dd>
+                    </div>
+                    <div class="contact-hours-row">
+                      <dt data-i18n="contact.dayThu">Czwartek</dt>
+                      <dd data-i18n="contact.hoursThu">8:00–19:00</dd>
+                    </div>
+                    <div class="contact-hours-row">
+                      <dt data-i18n="contact.dayFri">Piątek</dt>
+                      <dd data-i18n="contact.hoursFri">8:00–19:00</dd>
+                    </div>
+                    <div class="contact-hours-row">
+                      <dt data-i18n="contact.daySat">Sobota</dt>
+                      <dd data-i18n="contact.hoursSat">10:00–19:00</dd>
+                    </div>
+                    <div class="contact-hours-row">
+                      <dt data-i18n="contact.daySun">Niedziela</dt>
+                      <dd data-i18n="contact.hoursSun">10:00–19:00</dd>
+                    </div>
+                  </dl>
+                  <p class="contact-hours-note" data-i18n="contact.hoursHolidayNote">
+                    W święta godziny mogą być inne.
+                  </p>
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-bar">
+        <p class="footer-bar-copy">
+          © <span id="year"></span>
+          <span class="brand-name notranslate" translate="no">Czarne Mleko</span>
+        </p>
+        <nav class="footer-bar-nav" aria-label="Social media">
+          <a href="https://www.facebook.com/Czarne-mleko-1736689609892592" target="_blank" rel="noopener noreferrer" data-i18n="footer.facebookShort">Facebook</a>
+          <a href="#contact" data-i18n="nav.contact">Kontakt</a>
+        </nav>
+        <p class="footer-bar-contact">
+          <a href="mailto:kawiarniaczarnemleko@gmail.com">kawiarniaczarnemleko@gmail.com</a>
+          <span class="footer-bar-sep" aria-hidden="true">·</span>
+          <a href="tel:+48797923244">797 923 244</a>
+        </p>
+      </div>
+    </footer>
+
+    <script defer src="i18n.js"></script>
+    <script defer src="script.js"></script>
+  </body>
+</html>

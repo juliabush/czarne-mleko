@@ -1,0 +1,391 @@
+{
+  "meta": {
+    "title": "Czarne Mleko | Coffee & Breakfast",
+    "description": "Czarne Mleko — coffee, breakfast and lunch. Dąbrowskiego 68, Poznań."
+  },
+  "a11y": {
+    "skipLink": "Skip to content",
+    "logoHome": "Czarne Mleko home",
+    "navPrimary": "Primary",
+    "navMobileLabel": "Menu",
+    "highlights": "Highlights",
+    "visitSection": "Visit us",
+    "galleryRegion": "Czarne Mleko gallery",
+    "galleryPhotos": "Photos",
+    "foodGalleryScroller": "Scrollable food gallery",
+    "galleryDots": "Photo indicators",
+    "langSwitch": "Language"
+  },
+  "nav": {
+    "menu": "Menu",
+    "gallery": "Gallery",
+    "about": "About",
+    "testimonials": "Reviews",
+    "location": "Location",
+    "contact": "Contact",
+    "reserve": "Reserve"
+  },
+  "lang": {
+    "pl": "PL",
+    "en": "EN"
+  },
+  "hero": {
+    "headline": "coffee, breakfast, slow mornings",
+    "eyebrow": "with love for people and food",
+    "subtitle": "Restaurant",
+    "lead": "specialty coffee · breakfast · lunch",
+    "ctaMenu": "See menu",
+    "ctaReserve": "Book online",
+    "heroImageAlt": "Czarne Mleko café on Dąbrowskiego in Poznań"
+  },
+  "intro": {
+    "title": "From morning to evening",
+    "lead": "Breakfast, lunch, seasonal plates and specialty coffee — honest food made with heart.",
+    "feature1": "Breakfast all day",
+    "feature2": "Vegetarian & seasonal options",
+    "feature3": "Coffee, tea & cocktails",
+    "script": "Come by for breakfast!",
+    "photoAlt": "Raspberry dessert at Czarne Mleko",
+    "locationTitle": "Jeżyce",
+    "mapCta": "View on map",
+    "sageTitle": "coffee with character",
+    "sageLead": "Specialty coffee, house bakes and a calm atmosphere — in the heart of Jeżyce.",
+    "sageCta": "About our coffee"
+  },
+  "classics": {
+    "eyebrow": "On the plate",
+    "title": "Our classics",
+    "lead": "Seasonal ingredients, home recipes and flavours worth coming back for.",
+    "cta": "Full menu",
+    "lunchTitle": "Lunch",
+    "lunchDesc": "Panini, salads and warm dishes every day.",
+    "lunchAlt": "Lunch at Czarne Mleko",
+    "bakedTitle": "Baked goods",
+    "bakedDesc": "House cakes and sweet treats perfect with coffee.",
+    "bakedAlt": "Baked goods at Czarne Mleko",
+    "coffeeTitle": "Coffee",
+    "coffeeDesc": "Espresso, flat white and latte on specialty beans.",
+    "coffeeAlt": "Coffee at Czarne Mleko",
+    "specialtyTitle": "Specialty drinks",
+    "specialtyDesc": "Matcha, seasonal lattes and alternative brews.",
+    "specialtyAlt": "Specialty drinks at Czarne Mleko"
+  },
+  "highlight": {
+    "breakfastTitle": "Breakfast",
+    "breakfastBody": "Toast, eggs and savoury plates for a slow start — served daily until 2 p.m.",
+    "brunchTitle": "Brunch",
+    "brunchBody": "Warm dishes and seasonal flavours — perfect when you want to linger.",
+    "coffeeTitle": "Coffee",
+    "coffeeBody": "Espresso, pour-over and milk classics — roasted and brewed with balance."
+  },
+  "menu": {
+    "eyebrow": "Breakfast · coffee · lunch",
+    "title": "Menu",
+    "lead": "Breakfast, lunch, sweet treats and drinks — all day.",
+    "catFood": "Food",
+    "catBreakfast": "Breakfasts",
+    "catPanini": "Panini",
+    "catScrambled": "Scrambled eggs",
+    "catSandwiches": "Sandwiches",
+    "catToasts": "Toasts",
+    "catSalads": "Salads",
+    "catSweet": "Sweet options",
+    "catDrinks": "Drinks",
+    "catSeasonalLattes": "Seasonal lattes",
+    "catExtras": "Extras",
+    "catMatcha": "Matcha & specialty drinks",
+    "catHotDrinks": "Other hot drinks",
+    "catColdAlt": "Coffee alternatives & cold drinks",
+    "catColdCoffee": "Cold coffee & summer drinks",
+    "catAltBrew": "Alternative brew coffee",
+    "catFreshJuice": "Fresh juice",
+    "catCoffee": "Coffee",
+    "food": {
+      "french_toast": {
+        "name": "French toast",
+        "price": "33 PLN",
+        "desc": "French toast on homemade brioche with cinnamon, caramelized plum, crumble, and sour cream."
+      },
+      "brioche_kimchi": {
+        "name": "Brioche with kimchi & fried egg",
+        "price": "33 PLN",
+        "desc": "Brioche with kimchi, fried egg, cream cheese, lamb's lettuce salad, cucumber, onion, chives, and sesame."
+      },
+      "chorizo_omelette": {
+        "name": "Chorizo omelette",
+        "price": "33 PLN",
+        "desc": "Omelette with tomato sauce, homemade brioche, and seasonal salad."
+      },
+      "panini_chicken": {
+        "name": "With chicken",
+        "price": "",
+        "desc": "Roasted chicken and camembert, served with salad and honey-mustard sauce."
+      },
+      "panini_vege": {
+        "name": "Vegetarian",
+        "price": "",
+        "desc": "Mozzarella and sun-dried tomatoes, served with salad and honey-mustard sauce."
+      },
+      "scrambled": {
+        "name": "Scrambled eggs",
+        "price": "",
+        "desc": "2 eggs with yellow cheese, ham, vegetable salad, honey-mustard sauce, and warm bread."
+      },
+      "sandwiches": {
+        "name": "Sandwiches",
+        "price": "",
+        "desc": "with chicken and camembert · with sun-dried tomatoes and mozzarella · with avocado and sun-dried tomato paste"
+      },
+      "toasts": {
+        "name": "Toasts",
+        "price": "",
+        "desc": "Served with yellow cheese, ham, mayo sauce, and vegetable salad. Small / large sizes available."
+      },
+      "salad_chicken": {
+        "name": "With chicken",
+        "price": "",
+        "desc": "Chicken, camembert, vegetables, honey-mustard sauce, warm bread."
+      },
+      "salad_salmon": {
+        "name": "With salmon",
+        "price": "",
+        "desc": "Smoked salmon, mozzarella, vegetables, honey-mustard sauce, warm bread."
+      },
+      "sweet_bowls": {
+        "name": "Granola · chia pudding · tapioca · oatmeal",
+        "price": "",
+        "desc": "milk / water / plant milk (+3 PLN)"
+      },
+      "sweet_toasts": {
+        "name": "Sweet toasts",
+        "price": "",
+        "desc": "peanut butter · caramel & banana"
+      }
+    },
+    "drinks": {
+      "pumpkin_spice": {
+        "name": "Pumpkin spice latte",
+        "price": "18 PLN",
+        "desc": "230 / 400 ml"
+      },
+      "vanilla_cinnamon": {
+        "name": "Vanilla & cinnamon",
+        "price": "18 PLN",
+        "desc": "Vanilla & cinnamon latte.\n230 / 400 ml"
+      },
+      "spiced_latte": {
+        "name": "Spiced latte",
+        "price": "18 PLN",
+        "desc": "230 / 400 ml"
+      },
+      "mocha": {
+        "name": "Mocha latte",
+        "price": "18 PLN",
+        "desc": "230 / 400 ml"
+      },
+      "extra_espresso": {
+        "name": "Extra espresso",
+        "price": "5 PLN"
+      },
+      "plant_milk": {
+        "name": "Plant milk",
+        "price": "2 PLN"
+      },
+      "plum_matcha": {
+        "name": "Plum matcha latte",
+        "price": "21 PLN",
+        "desc": "300 ml"
+      },
+      "salted_matcha": {
+        "name": "Salted matcha with honey",
+        "price": "21 PLN",
+        "desc": "300 ml"
+      },
+      "hojicha": {
+        "name": "Hojicha latte",
+        "price": "20 PLN",
+        "desc": "Alternative to matcha.\n300 ml"
+      },
+      "chai": {
+        "name": "Chai latte",
+        "price": "19 PLN",
+        "desc": "300 ml"
+      },
+      "lavender_ginger": {
+        "name": "Lavender ginger infusion",
+        "price": "20 PLN",
+        "desc": "Lavender ginger infusion with citrus and honey.\n400 ml"
+      },
+      "warming_tea": {
+        "name": "Warming tea",
+        "price": "20 PLN",
+        "desc": "Black tea with citrus, cloves, and raspberries.\n400 ml"
+      },
+      "cold_alt": {
+        "name": "Coffee alternatives & cold drinks",
+        "price": "",
+        "desc": "Aromatic teas · black tea · green tea · ginger infusion · cocoa · fresh orange juice · fruit smoothie · fruit cocktail · sparkling / still water · bottled drinks"
+      },
+      "cold_coffee": {
+        "name": "Cold coffee & summer drinks",
+        "price": "",
+        "desc": "Doppio with orange juice · tonic espresso · iced drip · lemonade · iced fruit tea · ice matcha · matcha tonic"
+      },
+      "drip": {
+        "name": "Drip",
+        "price": "",
+        "desc": "250 ml"
+      },
+      "chemex": {
+        "name": "Chemex",
+        "price": "",
+        "desc": "300 ml"
+      },
+      "orange_juice": {
+        "name": "Orange",
+        "price": ""
+      },
+      "grapefruit_juice": {
+        "name": "Grapefruit",
+        "price": ""
+      },
+      "espresso": {
+        "name": "Espresso",
+        "price": ""
+      },
+      "doppio": {
+        "name": "Doppio",
+        "price": ""
+      },
+      "black_coffee": {
+        "name": "Black coffee",
+        "price": ""
+      },
+      "flat_white": {
+        "name": "Flat white",
+        "price": ""
+      },
+      "cappuccino": {
+        "name": "Cappuccino",
+        "price": "",
+        "desc": "small / large"
+      },
+      "latte": {
+        "name": "Latte",
+        "price": "",
+        "desc": "small / large · plant milk option available"
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Good things only",
+    "title": "Food gallery",
+    "lead": "Breakfast, brunch and coffee — straight from the menu and bar.",
+    "photoDot": "Photo {{n}} of {{total}}",
+    "vibeBreakfast": "Breakfast at Czarne Mleko",
+    "vibeSavory": "Sweet and savory dish at Czarne Mleko",
+    "vibeCakes": "Cakes at Czarne Mleko"
+  },
+  "galleryAlt": {
+    "croissant": "Buttery croissant with espresso",
+    "shakshuka": "Shakshuka in a pan",
+    "drink": "Layered iced coffee drink",
+    "figToast": "Breakfast toast topped with fig",
+    "cake": "Slice of cake on a plate",
+    "strawberryCake": "Strawberry cake",
+    "bagel": "Bagel sandwich with fillings and toppings",
+    "twoBeverages": "Two colourful drinks in glasses"
+  },
+  "gallery.capCroissantTitle": "Croissant & espresso",
+  "gallery.capCroissantSub": "Mornings that smell like butter.",
+  "gallery.capShakshukaTitle": "Shakshuka",
+  "gallery.capShakshukaSub": "A warm plate full of aroma.",
+  "gallery.capDrinkTitle": "Cool coffee serve",
+  "gallery.capDrinkSub": "Ice, fruit syrup, espresso.",
+  "gallery.capFigToastTitle": "Fig toast",
+  "gallery.capFigToastSub": "Sweet-savoury morning on crisp bread.",
+  "gallery.capCakeTitle": "Cake from the counter",
+  "gallery.capCakeSub": "A sweet finish to your visit.",
+  "gallery.capStrawberryCakeTitle": "Strawberry cake",
+  "gallery.capStrawberryCakeSub": "Seasonal berries, light sweetness.",
+  "gallery.capBagelTitle": "Breakfast bagel",
+  "gallery.capBagelSub": "Hearty filling with fresh toppings.",
+  "gallery.capTwoBeveragesTitle": "Bar drinks",
+  "gallery.capTwoBeveragesSub": "Bright mixes — perfect for warm days.",
+  "about": {
+    "eyebrow": "Our place",
+    "title": "About us",
+    "tagline": "Specialty coffee · breakfast · lunch",
+    "altInterior": "Czarne Mleko café interior",
+    "altWelcome": "Welcome at Czarne Mleko",
+    "altFamily": "Family-friendly atmosphere at Czarne Mleko",
+    "altFriends": "Coffee with friends at Czarne Mleko",
+    "altOwner": "Czarne Mleko owner with dog",
+    "photoDot": "Photo {{n}} of {{total}}"
+  },
+  "testimonials": {
+    "title": "Reviews",
+    "averageScore": "4.7",
+    "scoreSuffix": " out of 5 stars",
+    "basedOn": "Based on ",
+    "reviewCount": "983 reviews",
+    "fiveStarsAria": "Rated 5 out of 5 stars",
+    "carouselDots": "Review indicators",
+    "carouselDot": "Review {{n}} of {{total}}",
+    "quote1": "You smell the coffee from the door — croissant and flat white are top notch.",
+    "quote2": "Shakshuka like on holiday — I’m back every weekend brunch.",
+    "quote3": "Unhurried service — perfect with a book.",
+    "quote4": "The best coffee around — flat white and cake hit the mark every time.",
+    "quote5": "Calm space and breakfast before work — exactly what I was looking for.",
+    "quote6": "Easy-going service — feels like coffee at a friend’s place.",
+    "quote7": "Weekend brunch is our ritual — generous plates and bold flavours.",
+    "quote8": "Cosy room and music in the background — ideal for coffee with friends.",
+    "quote9": "Especially the shakshuka and house bakes — I keep coming back."
+  },
+  "location": {
+    "eyebrow": "Visit",
+    "title": "Location",
+    "line1": "ul. Jana Henryka Dąbrowskiego 68",
+    "line2": "60-522 Poznań, Poland",
+    "mapIframeTitle": "Czarne Mleko on Google Maps",
+    "mapLink": "Open this place in Google Maps"
+  },
+  "contact": {
+    "eyebrow": "Say hello",
+    "title": "Contact",
+    "phone": "Phone",
+    "email": "Email",
+    "social": "Social",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "hours": "Hours",
+    "dayMon": "Monday",
+    "dayTue": "Tuesday",
+    "dayWed": "Wednesday",
+    "dayThu": "Thursday",
+    "dayFri": "Friday",
+    "daySat": "Saturday",
+    "daySun": "Sunday",
+    "hoursMon": "8 am–7 pm",
+    "hoursTue": "8 am–7 pm",
+    "hoursWed": "8 am–7 pm",
+    "hoursThu": "8 am–7 pm",
+    "hoursFri": "8 am–7 pm",
+    "hoursSat": "10 am–7 pm",
+    "hoursSun": "10 am–7 pm",
+    "hoursWeekday": "Mon–Fri 8 am–7 pm",
+    "hoursSunday": "Sat–Sun 10 am–7 pm",
+    "hoursHolidayNote": "Hours might differ during holidays."
+  },
+  "footer": {
+    "tagline": "Coffee, breakfast and lunch — Dąbrowskiego 68, Poznań.",
+    "contactHeading": "Contact",
+    "hoursHeading": "Hours",
+    "hoursText": "Mon–Fri 8 am–7 pm · Sat–Sun 10 am–7 pm",
+    "followHeading": "Follow",
+    "instagram": "Instagram",
+    "facebook": "Facebook · Czarne Mleko",
+    "instagramShort": "Instagram",
+    "facebookShort": "Facebook"
+  }
+}
